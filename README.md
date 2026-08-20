@@ -28,3 +28,7 @@ The portrait is now a real `<img>` with `object-fit: contain`, so it is not crop
 - Four aligned blocks with identical title position and typography.
 - Experience icon added from the supplied image.
 - LinkedIn linked directly to https://www.linkedin.com/in/markel-mart%C3%ADn-vaquero/
+
+
+## v8 Research update
+Featured research now uses the original PDFs: Photronics (PLAB), Axcelis Technologies (ACLS), and U.S. Debt Situation (Macro Analysis). Each card links to its own page and the original PDF can be downloaded.
