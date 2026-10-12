@@ -1,0 +1,230 @@
+{
+ "fecha": "2026-10-12 12:04:24",
+ "metodo": "Black-Litterman",
+ "efectivo": 0.05,
+ "posiciones": [
+  {
+   "ticker": "AIXA.DE",
+   "nombre": "AIXTRON SE",
+   "peso": 0.185,
+   "divisa": "EUR",
+   "pais": "Germany",
+   "small_mid": true,
+   "precio_ref": 36.310001373291016
+  },
+  {
+   "ticker": "NVDA",
+   "nombre": "NVIDIA Corporation",
+   "peso": 0.185,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": false,
+   "precio_ref": 229.27999877929688
+  },
+  {
+   "ticker": "PLAB",
+   "nombre": "Photronics, Inc.",
+   "peso": 0.147671,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": true,
+   "precio_ref": 29.6200008392334
+  },
+  {
+   "ticker": "TSM",
+   "nombre": "Taiwan Semiconductor Manufacturing Company Limited",
+   "peso": 0.082329,
+   "divisa": "USD",
+   "pais": "Taiwan",
+   "small_mid": false,
+   "precio_ref": 453.30999755859375
+  },
+  {
+   "ticker": "ACLS",
+   "nombre": "Axcelis Technologies, Inc.",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": true,
+   "precio_ref": 134.7100067138672
+  },
+  {
+   "ticker": "POWI",
+   "nombre": "Power Integrations, Inc.",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": true,
+   "precio_ref": 49.119998931884766
+  },
+  {
+   "ticker": "BESI.AS",
+   "nombre": "BE Semiconductor Industries N.V.",
+   "peso": 0.05,
+   "divisa": "EUR",
+   "pais": "Netherlands",
+   "small_mid": false,
+   "precio_ref": 178.35000610351562
+  },
+  {
+   "ticker": "LRCX",
+   "nombre": "Lam Research Corporation",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": false,
+   "precio_ref": 318.8399963378906
+  },
+  {
+   "ticker": "RMBS",
+   "nombre": "Rambus Inc.",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": false,
+   "precio_ref": 107.47000122070312
+  },
+  {
+   "ticker": "AMKR",
+   "nombre": "Amkor Technology, Inc.",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": false,
+   "precio_ref": 49.119998931884766
+  },
+  {
+   "ticker": "MRAM",
+   "nombre": "Everspin Technologies, Inc.",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": true,
+   "precio_ref": 16.450000762939453
+  }
+ ],
+ "metricas": {
+  "rentabilidad_esperada": 0.38113801717217705,
+  "volatilidad": 0.3548942996895795,
+  "sharpe": 0.9612383672281161,
+  "max_drawdown_hist": -0.3965516721656914,
+  "rent_hist_anualizada": 0.3653113017760199,
+  "n_posiciones": 11.0,
+  "peso_max": 0.1850000000000001,
+  "beta": 0.7537688178191623,
+  "tracking_error": 0.2076351588292587,
+  "correlacion_bench": 0.8675001724685591
+ },
+ "cumplimiento_ips": [
+  {
+   "Regla": "Peso máximo por empresa",
+   "Límite": "≤ 18%",
+   "Valor": 0.1850000000000001,
+   "Cumple": true
+  },
+  {
+   "Regla": "Efectivo",
+   "Límite": "≤ 5%",
+   "Valor": 0.05,
+   "Cumple": true
+  },
+  {
+   "Regla": "Small/mid caps (300 M – 10.000 M USD)",
+   "Límite": "≥ 56%",
+   "Valor": 0.6326713585726172,
+   "Cumple": true
+  },
+  {
+   "Regla": "Sede en EE. UU. o Europa",
+   "Límite": "≥ 65%",
+   "Valor": 0.8676713585726173,
+   "Cumple": true
+  },
+  {
+   "Regla": "Resto del mundo",
+   "Límite": "< 10%",
+   "Valor": 0.08232864142738265,
+   "Cumple": true
+  }
+ ],
+ "nota": "",
+ "operaciones": [
+  {
+   "ticker": "ACLS",
+   "antes": 0.0,
+   "despues": 0.05,
+   "cambio": 0.05,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "AIXA.DE",
+   "antes": 0.0,
+   "despues": 0.185,
+   "cambio": 0.185,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "AMKR",
+   "antes": 0.0,
+   "despues": 0.05,
+   "cambio": 0.05,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "BESI.AS",
+   "antes": 0.0,
+   "despues": 0.05,
+   "cambio": 0.05,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "LRCX",
+   "antes": 0.0,
+   "despues": 0.05,
+   "cambio": 0.05,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "MRAM",
+   "antes": 0.0,
+   "despues": 0.05,
+   "cambio": 0.05,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "NVDA",
+   "antes": 0.0,
+   "despues": 0.185,
+   "cambio": 0.185,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "PLAB",
+   "antes": 0.0,
+   "despues": 0.147671,
+   "cambio": 0.147671,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "POWI",
+   "antes": 0.0,
+   "despues": 0.05,
+   "cambio": 0.05,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "RMBS",
+   "antes": 0.0,
+   "despues": 0.05,
+   "cambio": 0.05,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "TSM",
+   "antes": 0.0,
+   "despues": 0.082329,
+   "cambio": 0.082329,
+   "tipo": "compra"
+  }
+ ]
+}
