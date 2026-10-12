@@ -32,6 +32,7 @@
     <nav class="nav-links">
       <a class="active" href="#home">Home</a>
       <a href="#ideas">Investment Ideas</a>
+      <a href="#fund">Model Fund</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#about">About Me</a>
     </nav>
@@ -140,6 +141,69 @@
     </div>
   </section>
 
+    <section class="portfolio-section fund-section" id="fund">
+    <style>
+      .fund-section{background:var(--cream-soft)}
+      .fund-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:22px;max-width:580px}
+      .fund-kpi{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:rgba(255,255,255,.5)}
+      .fund-kpi small{display:block;font-size:11px;color:#68747c;letter-spacing:.4px}
+      .fund-kpi strong{font:700 19px Manrope,sans-serif;color:var(--ink)}
+      .fund-perf{height:340px;padding:18px 20px;place-items:stretch}
+      .fund-rebal{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin-bottom:10px;background:rgba(255,255,255,.45)}
+      .fund-rebal summary{cursor:pointer;font-size:14px}
+      @media (max-width:800px){.fund-kpis{grid-template-columns:repeat(2,1fr)}}
+    </style>
+    <div class="container portfolio-layout">
+      <div class="portfolio-copy">
+        <div class="section-kicker">MODEL FUND</div>
+        <h2>Semiconductors — Small &amp; Mid Caps</h2>
+        <p>Model portfolio built from my research and optimised under a written investment policy: at least 80% in
+          small and mid caps, at least 90% in U.S. and European companies, maximum 15% per position and up to 5% cash.
+          Weights come from a Black-Litterman optimisation. Benchmark: XSD (secondary: SOXX). Updated automatically every
+          trading day.</p>
+        <div id="fundKpis" class="fund-kpis"></div>
+        <div id="fundLegend" class="portfolio-legend"></div>
+        <p id="fundMeta" class="portfolio-source"></p>
+      </div>
+      <div class="chart-card">
+        <div id="fundChart" class="portfolio-chart">
+          <div class="chart-center"><span>POSITIONS</span><strong id="fundTotal">—</strong></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="margin-top:42px;">
+      <div class="section-kicker">PERFORMANCE</div>
+      <h3 style="margin:6px 0 14px;font-size:24px;">Model Fund vs Benchmarks (base 100)</h3>
+      <div class="chart-card fund-perf"><canvas id="fundPerf"></canvas></div>
+      <div style="overflow-x:auto;margin-top:18px;"><table class="portfolio-table" id="fundMetrics"></table></div>
+    </div>
+
+    <div class="container" style="margin-top:42px;">
+      <div class="section-kicker">CURRENT POSITIONS</div>
+      <h3 style="margin:6px 0 4px;font-size:24px;">Model Fund Holdings</h3>
+      <p id="fundPositionsMeta" style="margin:0 0 14px;color:#52606a;"></p>
+      <div style="overflow-x:auto;">
+        <table class="portfolio-table">
+          <thead><tr><th>Position</th><th>Company</th><th>Country</th><th>Target weight</th><th>Current weight</th>
+            <th>Entry date</th><th>Entry</th><th>Current</th><th>P&amp;L</th></tr></thead>
+          <tbody id="fundPositions"></tbody>
+        </table>
+      </div>
+      <p class="portfolio-source">Prices in local currency, adjusted for dividends and splits; P&amp;L is price return since
+        entry. Fund NAV measured in USD (European positions converted at daily FX rates), before transaction costs and taxes.</p>
+    </div>
+
+    <div class="container" style="margin-top:42px;">
+      <div class="section-kicker">REBALANCING HISTORY</div>
+      <h3 style="margin:6px 0 14px;font-size:24px;">Portfolio Changes</h3>
+      <div id="fundHistory"></div>
+      <p id="fundVerify" class="portfolio-source"></p>
+      <p class="portfolio-source">Model portfolio for research and educational purposes. It is not a real fund, does not
+        manage third-party assets and is not investment advice. Past performance is not indicative of future results.</p>
+    </div>
+  </section>
+
   <section class="portfolio-section" id="portfolio">
     <div class="container portfolio-layout">
       <div class="portfolio-copy">
@@ -209,5 +273,7 @@
 </main>
 
 <script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="fondo.js"></script>
 </body>
 </html>
