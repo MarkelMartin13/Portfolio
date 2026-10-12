@@ -54,7 +54,7 @@
         <td>${pct(v.volatilidad)}</td><td class="negative">${pct(v.max_caida)}</td></tr>`).join("");
 
     // Posiciones
-    $("fundPositions").innerHTML = pos.map(p => `<tr><td><strong>${p.ticker}</strong></td><td>${p.nombre || ""}</td><td>${p.pais || ""}</td>
+    $("fundPositions").innerHTML = pos.map(p => `<tr><td><strong>${p.ticker}</strong></td><td>${p.nombre || ""}${p.tipo === "ETF" ? " <small>(ETF)</small>" : ""}</td><td>${p.pais || ""}</td>
       <td>${pct(p.peso)}</td><td>${pct(p.peso_actual)}</td><td>${p.fecha_entrada || ""}</td>
       <td>${num(p.precio_entrada)}</td><td>${num(p.precio_actual)}</td><td class="${cls(p.pnl)}">${sgn(p.pnl, 2)}</td></tr>`).join("");
     $("fundPositionsMeta").textContent = `Last rebalance: ${c.fecha} · method: ${c.metodo || "—"}` + (c.efectivo ? ` · cash target ${pct(c.efectivo)}` : "");
