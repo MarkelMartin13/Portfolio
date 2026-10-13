@@ -1,0 +1,219 @@
+{
+ "fecha": "2026-10-13 09:45:19",
+ "metodo": "Black-Litterman",
+ "efectivo": 0.05,
+ "posiciones": [
+  {
+   "ticker": "XSD",
+   "nombre": "State Street SPDR S&P Semiconductor ETF",
+   "tipo": "ETF",
+   "peso": 0.3,
+   "divisa": "USD",
+   "pais": NaN,
+   "small_mid": false,
+   "precio_ref": 509.1700134277344
+  },
+  {
+   "ticker": "PLAB",
+   "nombre": "Photronics, Inc.",
+   "tipo": "Acción",
+   "peso": 0.15,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": true,
+   "precio_ref": 29.239999771118164
+  },
+  {
+   "ticker": "AIXA.DE",
+   "nombre": "AIXTRON SE",
+   "tipo": "Acción",
+   "peso": 0.15,
+   "divisa": "EUR",
+   "pais": "Germany",
+   "small_mid": true,
+   "precio_ref": 34.33000183105469
+  },
+  {
+   "ticker": "NVDA",
+   "nombre": "NVIDIA Corporation",
+   "tipo": "Acción",
+   "peso": 0.1,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": false,
+   "precio_ref": 226.32000732421875
+  },
+  {
+   "ticker": "ACLS",
+   "nombre": "Axcelis Technologies, Inc.",
+   "tipo": "Acción",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": true,
+   "precio_ref": 127.62999725341797
+  },
+  {
+   "ticker": "TSM",
+   "nombre": "Taiwan Semiconductor Manufacturing Company Limited",
+   "tipo": "Acción",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "Taiwan",
+   "small_mid": false,
+   "precio_ref": 444.3500061035156
+  },
+  {
+   "ticker": "LRCX",
+   "nombre": "Lam Research Corporation",
+   "tipo": "Acción",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": false,
+   "precio_ref": 309.55999755859375
+  },
+  {
+   "ticker": "MU",
+   "nombre": "Micron Technology, Inc.",
+   "tipo": "Acción",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": false,
+   "precio_ref": 989.0399780273438
+  },
+  {
+   "ticker": "SMHN.DE",
+   "nombre": "SUSS MicroTec SE",
+   "tipo": "Acción",
+   "peso": 0.05,
+   "divisa": "EUR",
+   "pais": "Germany",
+   "small_mid": true,
+   "precio_ref": 61.45000076293945
+  }
+ ],
+ "metricas": {
+  "rentabilidad_esperada": 0.40119121774130995,
+  "volatilidad": 0.35858740076963586,
+  "sharpe": 1.007261317508885,
+  "max_drawdown_hist": -0.40653948730369494,
+  "rent_hist_anualizada": 0.40372142253949894,
+  "n_posiciones": 9.0,
+  "peso_max": 0.3,
+  "beta": 0.8027134443355453,
+  "tracking_error": 0.16820939974257687,
+  "correlacion_bench": 0.9163184372186032
+ },
+ "cumplimiento_ips": [
+  {
+   "Regla": "Peso máximo por acción",
+   "Límite": "≤ 15.0%",
+   "Valor": 0.15,
+   "Cumple": true
+  },
+  {
+   "Regla": "Peso mínimo por acción elegida",
+   "Límite": "≥ 5.0%",
+   "Valor": 0.05,
+   "Cumple": true
+  },
+  {
+   "Regla": "Peso fijo XSD",
+   "Límite": "= 30.0%",
+   "Valor": 0.3,
+   "Cumple": true
+  },
+  {
+   "Regla": "Efectivo",
+   "Límite": "5% – 10%",
+   "Valor": 0.05,
+   "Cumple": true
+  },
+  {
+   "Regla": "Small/mid caps",
+   "Límite": "≥ 0%",
+   "Valor": 0.39999999999999997,
+   "Cumple": true
+  },
+  {
+   "Regla": "EE. UU. + Europa",
+   "Límite": "≥ 0%",
+   "Valor": 0.8999999999999999,
+   "Cumple": true
+  },
+  {
+   "Regla": "ETFs (total)",
+   "Límite": "informativo",
+   "Valor": 0.3,
+   "Cumple": true
+  }
+ ],
+ "nota": "",
+ "operaciones": [
+  {
+   "ticker": "ACLS",
+   "antes": 0.0,
+   "despues": 0.05,
+   "cambio": 0.05,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "AIXA.DE",
+   "antes": 0.0,
+   "despues": 0.15,
+   "cambio": 0.15,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "LRCX",
+   "antes": 0.0,
+   "despues": 0.05,
+   "cambio": 0.05,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "MU",
+   "antes": 0.0,
+   "despues": 0.05,
+   "cambio": 0.05,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "NVDA",
+   "antes": 0.0,
+   "despues": 0.1,
+   "cambio": 0.1,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "PLAB",
+   "antes": 0.0,
+   "despues": 0.15,
+   "cambio": 0.15,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "SMHN.DE",
+   "antes": 0.0,
+   "despues": 0.05,
+   "cambio": 0.05,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "TSM",
+   "antes": 0.0,
+   "despues": 0.05,
+   "cambio": 0.05,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "XSD",
+   "antes": 0.0,
+   "despues": 0.3,
+   "cambio": 0.3,
+   "tipo": "compra"
+  }
+ ]
+}
