@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-13 07:46 UTC",
+ "actualizado": "2026-10-13 07:50 UTC",
  "inicio": "2026-10-13",
  "ultimo_cierre": "2026-10-13",
  "benchmarks": {
@@ -160,8 +160,8 @@
     "small_mid": true,
     "precio_ref": 61.45000076293945,
     "fecha_entrada": "2026-10-13",
-    "precio_entrada": 61.5,
-    "precio_actual": 61.5,
+    "precio_entrada": 61.70000076293945,
+    "precio_actual": 61.70000076293945,
     "pnl": 0.0,
     "peso_actual": 0.05
    }
