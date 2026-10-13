@@ -36,7 +36,7 @@
     "tipo": "ETF",
     "peso": 0.3,
     "divisa": "USD",
-    "pais": NaN,
+    "pais": null,
     "small_mid": false,
     "precio_ref": 509.1700134277344,
     "fecha_entrada": "2026-10-13",

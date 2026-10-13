@@ -25,6 +25,17 @@ DATA = DOCS = ROOT / "fondo"          # carteras, NAV y datos de la web, todo en
 BENCH = {"XSD": "SPDR S&P Semiconductor ETF (principal)", "SOXX": "iShares Semiconductor ETF (secundario)"}
 
 
+def _limpiar(x):
+    """JSON válido para el navegador: NaN / infinito -> null."""
+    if isinstance(x, dict):
+        return {k: _limpiar(v) for k, v in x.items()}
+    if isinstance(x, (list, tuple)):
+        return [_limpiar(v) for v in x]
+    if isinstance(x, float) and (x != x or x in (float("inf"), float("-inf"))):
+        return None
+    return x
+
+
 def cargar_carteras() -> list[dict]:
     cs = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((DATA / "carteras").glob("*.json"))]
     return sorted(cs, key=lambda c: c["fecha"])
@@ -148,7 +159,7 @@ def main(precios_fn=None, hoy: str | None = None):
         "rebalanceos": [{"fecha": c["fecha"], "metodo": c.get("metodo"), "n": len(c["posiciones"]),
                          "operaciones": c.get("operaciones", []), "nota": c.get("nota", "")} for c in reversed(carteras)],
     }
-    (DOCS / "data.json").write_text(json.dumps(data, ensure_ascii=False, indent=1, default=str), encoding="utf-8")
+    (DOCS / "data.json").write_text(json.dumps(_limpiar(data), ensure_ascii=False, indent=1, default=str, allow_nan=False), encoding="utf-8")
     print(f"NAV {nav['nav'].iloc[-1]:.2f} a {ult.date()} · {len(carteras)} carteras · {len(nav)} sesiones")
 
 
