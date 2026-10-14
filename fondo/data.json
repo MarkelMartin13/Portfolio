@@ -1,32 +1,54 @@
 {
- "actualizado": "2026-10-14 06:46 UTC",
+ "actualizado": "2026-10-14 11:27 UTC",
  "inicio": "2026-10-13",
- "ultimo_cierre": "2026-10-13",
+ "ultimo_cierre": "2026-10-14",
  "benchmarks": {
   "XSD": "SPDR S&P Semiconductor ETF (principal)",
   "SOXX": "iShares Semiconductor ETF (secundario)"
  },
  "serie": {
   "fechas": [
-   "2026-10-13"
+   "2026-10-13",
+   "2026-10-14"
   ],
   "fondo": [
-   100.0
+   100.0,
+   100.267
   ],
   "XSD": [
+   100.0,
    100.0
   ],
   "SOXX": [
+   100.0,
    100.0
   ]
  },
  "metricas": {
-  "Fondo": {},
-  "XSD": {},
-  "SOXX": {}
+  "Fondo": {
+   "total": 0.002665825391225063,
+   "anualizada": null,
+   "ytd": 0.002665825391225063,
+   "volatilidad": null,
+   "max_caida": 0.0
+  },
+  "XSD": {
+   "total": 0.0,
+   "anualizada": null,
+   "ytd": 0.0,
+   "volatilidad": null,
+   "max_caida": 0.0
+  },
+  "SOXX": {
+   "total": 0.0,
+   "anualizada": null,
+   "ytd": 0.0,
+   "volatilidad": null,
+   "max_caida": 0.0
+  }
  },
  "cartera_actual": {
-  "fecha": "2026-10-13 09:45:19",
+  "fecha": "2026-10-14 13:26:41",
   "metodo": "Black-Litterman",
   "efectivo": 0.05,
   "posiciones": [
@@ -34,16 +56,16 @@
     "ticker": "XSD",
     "nombre": "State Street SPDR S&P Semiconductor ETF",
     "tipo": "ETF",
-    "peso": 0.3,
+    "peso": 0.25,
     "divisa": "USD",
     "pais": null,
     "small_mid": false,
-    "precio_ref": 509.1700134277344,
+    "precio_ref": 509.7799987792969,
     "fecha_entrada": "2026-10-13",
     "precio_entrada": 509.7799987792969,
     "precio_actual": 509.7799987792969,
     "pnl": 0.0,
-    "peso_actual": 0.3
+    "peso_actual": 0.25
    },
    {
     "ticker": "PLAB",
@@ -53,12 +75,12 @@
     "divisa": "USD",
     "pais": "United States",
     "small_mid": true,
-    "precio_ref": 29.239999771118164,
+    "precio_ref": 29.1200008392334,
     "fecha_entrada": "2026-10-13",
     "precio_entrada": 29.1200008392334,
     "precio_actual": 29.1200008392334,
     "pnl": 0.0,
-    "peso_actual": 0.15000000000000002
+    "peso_actual": 0.15
    },
    {
     "ticker": "AIXA.DE",
@@ -68,11 +90,11 @@
     "divisa": "EUR",
     "pais": "Germany",
     "small_mid": true,
-    "precio_ref": 34.33000183105469,
+    "precio_ref": 35.08000183105469,
     "fecha_entrada": "2026-10-13",
     "precio_entrada": 34.529998779296875,
-    "precio_actual": 34.529998779296875,
-    "pnl": 0.0,
+    "precio_actual": 35.06999969482422,
+    "pnl": 0.015638602218865705,
     "peso_actual": 0.15
    },
    {
@@ -83,7 +105,7 @@
     "divisa": "USD",
     "pais": "United States",
     "small_mid": false,
-    "precio_ref": 226.32000732421875,
+    "precio_ref": 228.52000427246094,
     "fecha_entrada": "2026-10-13",
     "precio_entrada": 228.52000427246094,
     "precio_actual": 228.52000427246094,
@@ -98,7 +120,7 @@
     "divisa": "USD",
     "pais": "United States",
     "small_mid": true,
-    "precio_ref": 127.62999725341797,
+    "precio_ref": 124.87999725341797,
     "fecha_entrada": "2026-10-13",
     "precio_entrada": 124.87999725341797,
     "precio_actual": 124.87999725341797,
@@ -113,10 +135,40 @@
     "divisa": "USD",
     "pais": "Taiwan",
     "small_mid": false,
-    "precio_ref": 444.3500061035156,
+    "precio_ref": 445.1199951171875,
     "fecha_entrada": "2026-10-13",
     "precio_entrada": 445.1199951171875,
     "precio_actual": 445.1199951171875,
+    "pnl": 0.0,
+    "peso_actual": 0.05
+   },
+   {
+    "ticker": "BESI.AS",
+    "nombre": "BE Semiconductor Industries N.V.",
+    "tipo": "Acción",
+    "peso": 0.05,
+    "divisa": "EUR",
+    "pais": "Netherlands",
+    "small_mid": false,
+    "precio_ref": 171.60000610351562,
+    "fecha_entrada": "2026-10-14",
+    "precio_entrada": 171.4499969482422,
+    "precio_actual": 171.4499969482422,
+    "pnl": 0.0,
+    "peso_actual": 0.05
+   },
+   {
+    "ticker": "MU",
+    "nombre": "Micron Technology, Inc.",
+    "tipo": "Acción",
+    "peso": 0.05,
+    "divisa": "USD",
+    "pais": "United States",
+    "small_mid": false,
+    "precio_ref": 953.1900024414062,
+    "fecha_entrada": "2026-10-13",
+    "precio_entrada": 953.1900024414062,
+    "precio_actual": 953.1900024414062,
     "pnl": 0.0,
     "peso_actual": 0.05
    },
@@ -128,27 +180,12 @@
     "divisa": "USD",
     "pais": "United States",
     "small_mid": false,
-    "precio_ref": 309.55999755859375,
+    "precio_ref": 301.1099853515625,
     "fecha_entrada": "2026-10-13",
     "precio_entrada": 301.1099853515625,
     "precio_actual": 301.1099853515625,
     "pnl": 0.0,
-    "peso_actual": 0.04999999999999999
-   },
-   {
-    "ticker": "MU",
-    "nombre": "Micron Technology, Inc.",
-    "tipo": "Acción",
-    "peso": 0.05,
-    "divisa": "USD",
-    "pais": "United States",
-    "small_mid": false,
-    "precio_ref": 989.0399780273438,
-    "fecha_entrada": "2026-10-13",
-    "precio_entrada": 953.1900024414062,
-    "precio_actual": 953.1900024414062,
-    "pnl": 0.0,
-    "peso_actual": 0.05
+    "peso_actual": 0.05000000000000002
    },
    {
     "ticker": "SMHN.DE",
@@ -158,43 +195,43 @@
     "divisa": "EUR",
     "pais": "Germany",
     "small_mid": true,
-    "precio_ref": 61.45000076293945,
+    "precio_ref": 61.79999923706055,
     "fecha_entrada": "2026-10-13",
     "precio_entrada": 62.04999923706055,
-    "precio_actual": 62.04999923706055,
-    "pnl": 0.0,
+    "precio_actual": 61.650001525878906,
+    "pnl": -0.006446377374695222,
     "peso_actual": 0.05
    }
   ],
   "metricas": {
-   "rentabilidad_esperada": 0.40119121774130995,
-   "volatilidad": 0.35858740076963586,
-   "sharpe": 1.007261317508885,
-   "max_drawdown_hist": -0.40653948730369494,
-   "rent_hist_anualizada": 0.40372142253949894,
-   "n_posiciones": 9.0,
-   "peso_max": 0.3,
-   "beta": 0.8027134443355453,
-   "tracking_error": 0.16820939974257687,
-   "correlacion_bench": 0.9163184372186032
+   "rentabilidad_esperada": 0.39992470375178474,
+   "volatilidad": 0.35382173619882706,
+   "sharpe": 1.0172487072685896,
+   "max_drawdown_hist": -0.40909078497575835,
+   "rent_hist_anualizada": 0.4051013773454031,
+   "n_posiciones": 10.0,
+   "peso_max": 0.2499999999999998,
+   "beta": 0.7796964725150255,
+   "tracking_error": 0.18143712206599202,
+   "correlacion_bench": 0.9015664071447896
   },
   "cumplimiento_ips": [
    {
     "Regla": "Peso máximo por acción",
     "Límite": "≤ 15.0%",
-    "Valor": 0.15,
+    "Valor": 0.14999999999999983,
     "Cumple": true
    },
    {
     "Regla": "Peso mínimo por acción elegida",
     "Límite": "≥ 5.0%",
-    "Valor": 0.05,
+    "Valor": 0.04999999999999997,
     "Cumple": true
    },
    {
     "Regla": "Peso fijo XSD",
-    "Límite": "= 30.0%",
-    "Valor": 0.3,
+    "Límite": "= 25.0%",
+    "Valor": 0.2499999999999998,
     "Cumple": true
    },
    {
@@ -206,7 +243,7 @@
    {
     "Regla": "Small/mid caps",
     "Límite": "≥ 0%",
-    "Valor": 0.39999999999999997,
+    "Valor": 0.3999999999999996,
     "Cumple": true
    },
    {
@@ -218,63 +255,14 @@
    {
     "Regla": "ETFs (total)",
     "Límite": "informativo",
-    "Valor": 0.3,
+    "Valor": 0.2499999999999998,
     "Cumple": true
    }
   ],
   "nota": "",
   "operaciones": [
    {
-    "ticker": "ACLS",
-    "antes": 0.0,
-    "despues": 0.05,
-    "cambio": 0.05,
-    "tipo": "compra"
-   },
-   {
-    "ticker": "AIXA.DE",
-    "antes": 0.0,
-    "despues": 0.15,
-    "cambio": 0.15,
-    "tipo": "compra"
-   },
-   {
-    "ticker": "LRCX",
-    "antes": 0.0,
-    "despues": 0.05,
-    "cambio": 0.05,
-    "tipo": "compra"
-   },
-   {
-    "ticker": "MU",
-    "antes": 0.0,
-    "despues": 0.05,
-    "cambio": 0.05,
-    "tipo": "compra"
-   },
-   {
-    "ticker": "NVDA",
-    "antes": 0.0,
-    "despues": 0.1,
-    "cambio": 0.1,
-    "tipo": "compra"
-   },
-   {
-    "ticker": "PLAB",
-    "antes": 0.0,
-    "despues": 0.15,
-    "cambio": 0.15,
-    "tipo": "compra"
-   },
-   {
-    "ticker": "SMHN.DE",
-    "antes": 0.0,
-    "despues": 0.05,
-    "cambio": 0.05,
-    "tipo": "compra"
-   },
-   {
-    "ticker": "TSM",
+    "ticker": "BESI.AS",
     "antes": 0.0,
     "despues": 0.05,
     "cambio": 0.05,
@@ -282,14 +270,36 @@
    },
    {
     "ticker": "XSD",
-    "antes": 0.0,
-    "despues": 0.3,
-    "cambio": 0.3,
-    "tipo": "compra"
+    "antes": 0.3,
+    "despues": 0.25,
+    "cambio": -0.05,
+    "tipo": "reducción"
    }
   ]
  },
  "rebalanceos": [
+  {
+   "fecha": "2026-10-14 13:26:41",
+   "metodo": "Black-Litterman",
+   "n": 10,
+   "operaciones": [
+    {
+     "ticker": "BESI.AS",
+     "antes": 0.0,
+     "despues": 0.05,
+     "cambio": 0.05,
+     "tipo": "compra"
+    },
+    {
+     "ticker": "XSD",
+     "antes": 0.3,
+     "despues": 0.25,
+     "cambio": -0.05,
+     "tipo": "reducción"
+    }
+   ],
+   "nota": ""
+  },
   {
    "fecha": "2026-10-13 09:45:19",
    "metodo": "Black-Litterman",
