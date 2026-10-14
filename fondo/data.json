@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-14 11:27 UTC",
+ "actualizado": "2026-10-14 11:29 UTC",
  "inicio": "2026-10-13",
  "ultimo_cierre": "2026-10-14",
  "benchmarks": {
@@ -13,7 +13,7 @@
   ],
   "fondo": [
    100.0,
-   100.267
+   100.249
   ],
   "XSD": [
    100.0,
@@ -26,9 +26,9 @@
  },
  "metricas": {
   "Fondo": {
-   "total": 0.002665825391225063,
+   "total": 0.0024915069556201708,
    "anualizada": null,
-   "ytd": 0.002665825391225063,
+   "ytd": 0.0024915069556201708,
    "volatilidad": null,
    "max_caida": 0.0
   },
@@ -48,7 +48,7 @@
   }
  },
  "cartera_actual": {
-  "fecha": "2026-10-14 13:26:41",
+  "fecha": "2026-10-14 13:29:28",
   "metodo": "Black-Litterman",
   "efectivo": 0.05,
   "posiciones": [
@@ -56,7 +56,7 @@
     "ticker": "XSD",
     "nombre": "State Street SPDR S&P Semiconductor ETF",
     "tipo": "ETF",
-    "peso": 0.25,
+    "peso": 0.2,
     "divisa": "USD",
     "pais": null,
     "small_mid": false,
@@ -65,7 +65,7 @@
     "precio_entrada": 509.7799987792969,
     "precio_actual": 509.7799987792969,
     "pnl": 0.0,
-    "peso_actual": 0.25
+    "peso_actual": 0.2
    },
    {
     "ticker": "PLAB",
@@ -80,7 +80,7 @@
     "precio_entrada": 29.1200008392334,
     "precio_actual": 29.1200008392334,
     "pnl": 0.0,
-    "peso_actual": 0.15
+    "peso_actual": 0.14999999999999997
    },
    {
     "ticker": "AIXA.DE",
@@ -90,11 +90,11 @@
     "divisa": "EUR",
     "pais": "Germany",
     "small_mid": true,
-    "precio_ref": 35.08000183105469,
+    "precio_ref": 35.06999969482422,
     "fecha_entrada": "2026-10-13",
     "precio_entrada": 34.529998779296875,
-    "precio_actual": 35.06999969482422,
-    "pnl": 0.015638602218865705,
+    "precio_actual": 35.029998779296875,
+    "pnl": 0.014480162689718412,
     "peso_actual": 0.15
    },
    {
@@ -150,10 +150,10 @@
     "divisa": "EUR",
     "pais": "Netherlands",
     "small_mid": false,
-    "precio_ref": 171.60000610351562,
+    "precio_ref": 171.4499969482422,
     "fecha_entrada": "2026-10-14",
-    "precio_entrada": 171.4499969482422,
-    "precio_actual": 171.4499969482422,
+    "precio_entrada": 171.6999969482422,
+    "precio_actual": 171.6999969482422,
     "pnl": 0.0,
     "peso_actual": 0.05
    },
@@ -185,7 +185,7 @@
     "precio_entrada": 301.1099853515625,
     "precio_actual": 301.1099853515625,
     "pnl": 0.0,
-    "peso_actual": 0.05000000000000002
+    "peso_actual": 0.049999999999999996
    },
    {
     "ticker": "SMHN.DE",
@@ -195,43 +195,58 @@
     "divisa": "EUR",
     "pais": "Germany",
     "small_mid": true,
-    "precio_ref": 61.79999923706055,
+    "precio_ref": 61.650001525878906,
     "fecha_entrada": "2026-10-13",
     "precio_entrada": 62.04999923706055,
     "precio_actual": 61.650001525878906,
     "pnl": -0.006446377374695222,
     "peso_actual": 0.05
+   },
+   {
+    "ticker": "ASML",
+    "nombre": "ASML Holding N.V.",
+    "tipo": "Acción",
+    "peso": 0.05,
+    "divisa": "USD",
+    "pais": "Netherlands",
+    "small_mid": false,
+    "precio_ref": 1717.760009765625,
+    "fecha_entrada": "2026-10-14",
+    "precio_entrada": 1717.760009765625,
+    "precio_actual": 1717.760009765625,
+    "pnl": 0.0,
+    "peso_actual": 0.05
    }
   ],
   "metricas": {
-   "rentabilidad_esperada": 0.39992470375178474,
-   "volatilidad": 0.35382173619882706,
-   "sharpe": 1.0172487072685896,
-   "max_drawdown_hist": -0.40909078497575835,
-   "rent_hist_anualizada": 0.4051013773454031,
-   "n_posiciones": 10.0,
-   "peso_max": 0.2499999999999998,
-   "beta": 0.7796964725150255,
-   "tracking_error": 0.18143712206599202,
-   "correlacion_bench": 0.9015664071447896
+   "rentabilidad_esperada": 0.4231293128994955,
+   "volatilidad": 0.35251414274356857,
+   "sharpe": 1.0868480620881005,
+   "max_drawdown_hist": -0.409718155676844,
+   "rent_hist_anualizada": 0.40878271931559196,
+   "n_posiciones": 11.0,
+   "peso_max": 0.2,
+   "beta": 0.7672722345175421,
+   "tracking_error": 0.19046150130841996,
+   "correlacion_bench": 0.8905571326214851
   },
   "cumplimiento_ips": [
    {
     "Regla": "Peso máximo por acción",
     "Límite": "≤ 15.0%",
-    "Valor": 0.14999999999999983,
+    "Valor": 0.15,
     "Cumple": true
    },
    {
     "Regla": "Peso mínimo por acción elegida",
     "Límite": "≥ 5.0%",
-    "Valor": 0.04999999999999997,
+    "Valor": 0.05,
     "Cumple": true
    },
    {
     "Regla": "Peso fijo XSD",
-    "Límite": "= 25.0%",
-    "Valor": 0.2499999999999998,
+    "Límite": "= 20.0%",
+    "Valor": 0.2,
     "Cumple": true
    },
    {
@@ -243,26 +258,26 @@
    {
     "Regla": "Small/mid caps",
     "Límite": "≥ 0%",
-    "Valor": 0.3999999999999996,
+    "Valor": 0.40000000000000013,
     "Cumple": true
    },
    {
     "Regla": "EE. UU. + Europa",
     "Límite": "≥ 0%",
-    "Valor": 0.8999999999999999,
+    "Valor": 0.9,
     "Cumple": true
    },
    {
     "Regla": "ETFs (total)",
     "Límite": "informativo",
-    "Valor": 0.2499999999999998,
+    "Valor": 0.2,
     "Cumple": true
    }
   ],
   "nota": "",
   "operaciones": [
    {
-    "ticker": "BESI.AS",
+    "ticker": "ASML",
     "antes": 0.0,
     "despues": 0.05,
     "cambio": 0.05,
@@ -270,14 +285,36 @@
    },
    {
     "ticker": "XSD",
-    "antes": 0.3,
-    "despues": 0.25,
+    "antes": 0.25,
+    "despues": 0.2,
     "cambio": -0.05,
     "tipo": "reducción"
    }
   ]
  },
  "rebalanceos": [
+  {
+   "fecha": "2026-10-14 13:29:28",
+   "metodo": "Black-Litterman",
+   "n": 11,
+   "operaciones": [
+    {
+     "ticker": "ASML",
+     "antes": 0.0,
+     "despues": 0.05,
+     "cambio": 0.05,
+     "tipo": "compra"
+    },
+    {
+     "ticker": "XSD",
+     "antes": 0.25,
+     "despues": 0.2,
+     "cambio": -0.05,
+     "tipo": "reducción"
+    }
+   ],
+   "nota": ""
+  },
   {
    "fecha": "2026-10-14 13:26:41",
    "metodo": "Black-Litterman",
