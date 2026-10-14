@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-13 07:50 UTC",
+ "actualizado": "2026-10-14 01:20 UTC",
  "inicio": "2026-10-13",
  "ultimo_cierre": "2026-10-13",
  "benchmarks": {
@@ -40,8 +40,8 @@
     "small_mid": false,
     "precio_ref": 509.1700134277344,
     "fecha_entrada": "2026-10-13",
-    "precio_entrada": 509.1700134277344,
-    "precio_actual": 509.1700134277344,
+    "precio_entrada": 509.7799987792969,
+    "precio_actual": 509.7799987792969,
     "pnl": 0.0,
     "peso_actual": 0.3
    },
@@ -55,10 +55,10 @@
     "small_mid": true,
     "precio_ref": 29.239999771118164,
     "fecha_entrada": "2026-10-13",
-    "precio_entrada": 29.239999771118164,
-    "precio_actual": 29.239999771118164,
+    "precio_entrada": 29.1200008392334,
+    "precio_actual": 29.1200008392334,
     "pnl": 0.0,
-    "peso_actual": 0.15
+    "peso_actual": 0.15000000000000002
    },
    {
     "ticker": "AIXA.DE",
@@ -70,8 +70,8 @@
     "small_mid": true,
     "precio_ref": 34.33000183105469,
     "fecha_entrada": "2026-10-13",
-    "precio_entrada": 34.459999084472656,
-    "precio_actual": 34.459999084472656,
+    "precio_entrada": 34.529998779296875,
+    "precio_actual": 34.529998779296875,
     "pnl": 0.0,
     "peso_actual": 0.15
    },
@@ -85,8 +85,8 @@
     "small_mid": false,
     "precio_ref": 226.32000732421875,
     "fecha_entrada": "2026-10-13",
-    "precio_entrada": 226.32000732421875,
-    "precio_actual": 226.32000732421875,
+    "precio_entrada": 228.52000427246094,
+    "precio_actual": 228.52000427246094,
     "pnl": 0.0,
     "peso_actual": 0.1
    },
@@ -100,8 +100,8 @@
     "small_mid": true,
     "precio_ref": 127.62999725341797,
     "fecha_entrada": "2026-10-13",
-    "precio_entrada": 127.62999725341797,
-    "precio_actual": 127.62999725341797,
+    "precio_entrada": 124.87999725341797,
+    "precio_actual": 124.87999725341797,
     "pnl": 0.0,
     "peso_actual": 0.05
    },
@@ -115,8 +115,8 @@
     "small_mid": false,
     "precio_ref": 444.3500061035156,
     "fecha_entrada": "2026-10-13",
-    "precio_entrada": 444.3500061035156,
-    "precio_actual": 444.3500061035156,
+    "precio_entrada": 445.1199951171875,
+    "precio_actual": 445.1199951171875,
     "pnl": 0.0,
     "peso_actual": 0.05
    },
@@ -130,10 +130,10 @@
     "small_mid": false,
     "precio_ref": 309.55999755859375,
     "fecha_entrada": "2026-10-13",
-    "precio_entrada": 309.55999755859375,
-    "precio_actual": 309.55999755859375,
+    "precio_entrada": 301.1099853515625,
+    "precio_actual": 301.1099853515625,
     "pnl": 0.0,
-    "peso_actual": 0.05
+    "peso_actual": 0.04999999999999999
    },
    {
     "ticker": "MU",
@@ -145,8 +145,8 @@
     "small_mid": false,
     "precio_ref": 989.0399780273438,
     "fecha_entrada": "2026-10-13",
-    "precio_entrada": 989.0399780273438,
-    "precio_actual": 989.0399780273438,
+    "precio_entrada": 953.1900024414062,
+    "precio_actual": 953.1900024414062,
     "pnl": 0.0,
     "peso_actual": 0.05
    },
@@ -160,8 +160,8 @@
     "small_mid": true,
     "precio_ref": 61.45000076293945,
     "fecha_entrada": "2026-10-13",
-    "precio_entrada": 61.70000076293945,
-    "precio_actual": 61.70000076293945,
+    "precio_entrada": 62.04999923706055,
+    "precio_actual": 62.04999923706055,
     "pnl": 0.0,
     "peso_actual": 0.05
    }
