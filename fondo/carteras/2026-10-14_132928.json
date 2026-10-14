@@ -1,0 +1,190 @@
+{
+ "fecha": "2026-10-14 13:29:28",
+ "metodo": "Black-Litterman",
+ "efectivo": 0.05,
+ "posiciones": [
+  {
+   "ticker": "XSD",
+   "nombre": "State Street SPDR S&P Semiconductor ETF",
+   "tipo": "ETF",
+   "peso": 0.2,
+   "divisa": "USD",
+   "pais": null,
+   "small_mid": false,
+   "precio_ref": 509.7799987792969
+  },
+  {
+   "ticker": "PLAB",
+   "nombre": "Photronics, Inc.",
+   "tipo": "Acción",
+   "peso": 0.15,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": true,
+   "precio_ref": 29.1200008392334
+  },
+  {
+   "ticker": "AIXA.DE",
+   "nombre": "AIXTRON SE",
+   "tipo": "Acción",
+   "peso": 0.15,
+   "divisa": "EUR",
+   "pais": "Germany",
+   "small_mid": true,
+   "precio_ref": 35.06999969482422
+  },
+  {
+   "ticker": "NVDA",
+   "nombre": "NVIDIA Corporation",
+   "tipo": "Acción",
+   "peso": 0.1,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": false,
+   "precio_ref": 228.52000427246094
+  },
+  {
+   "ticker": "ACLS",
+   "nombre": "Axcelis Technologies, Inc.",
+   "tipo": "Acción",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": true,
+   "precio_ref": 124.87999725341797
+  },
+  {
+   "ticker": "TSM",
+   "nombre": "Taiwan Semiconductor Manufacturing Company Limited",
+   "tipo": "Acción",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "Taiwan",
+   "small_mid": false,
+   "precio_ref": 445.1199951171875
+  },
+  {
+   "ticker": "BESI.AS",
+   "nombre": "BE Semiconductor Industries N.V.",
+   "tipo": "Acción",
+   "peso": 0.05,
+   "divisa": "EUR",
+   "pais": "Netherlands",
+   "small_mid": false,
+   "precio_ref": 171.4499969482422
+  },
+  {
+   "ticker": "MU",
+   "nombre": "Micron Technology, Inc.",
+   "tipo": "Acción",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": false,
+   "precio_ref": 953.1900024414062
+  },
+  {
+   "ticker": "LRCX",
+   "nombre": "Lam Research Corporation",
+   "tipo": "Acción",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": false,
+   "precio_ref": 301.1099853515625
+  },
+  {
+   "ticker": "SMHN.DE",
+   "nombre": "SUSS MicroTec SE",
+   "tipo": "Acción",
+   "peso": 0.05,
+   "divisa": "EUR",
+   "pais": "Germany",
+   "small_mid": true,
+   "precio_ref": 61.650001525878906
+  },
+  {
+   "ticker": "ASML",
+   "nombre": "ASML Holding N.V.",
+   "tipo": "Acción",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "Netherlands",
+   "small_mid": false,
+   "precio_ref": 1717.760009765625
+  }
+ ],
+ "metricas": {
+  "rentabilidad_esperada": 0.4231293128994955,
+  "volatilidad": 0.35251414274356857,
+  "sharpe": 1.0868480620881005,
+  "max_drawdown_hist": -0.409718155676844,
+  "rent_hist_anualizada": 0.40878271931559196,
+  "n_posiciones": 11.0,
+  "peso_max": 0.2,
+  "beta": 0.7672722345175421,
+  "tracking_error": 0.19046150130841996,
+  "correlacion_bench": 0.8905571326214851
+ },
+ "cumplimiento_ips": [
+  {
+   "Regla": "Peso máximo por acción",
+   "Límite": "≤ 15.0%",
+   "Valor": 0.15,
+   "Cumple": true
+  },
+  {
+   "Regla": "Peso mínimo por acción elegida",
+   "Límite": "≥ 5.0%",
+   "Valor": 0.05,
+   "Cumple": true
+  },
+  {
+   "Regla": "Peso fijo XSD",
+   "Límite": "= 20.0%",
+   "Valor": 0.2,
+   "Cumple": true
+  },
+  {
+   "Regla": "Efectivo",
+   "Límite": "5% – 10%",
+   "Valor": 0.05,
+   "Cumple": true
+  },
+  {
+   "Regla": "Small/mid caps",
+   "Límite": "≥ 0%",
+   "Valor": 0.40000000000000013,
+   "Cumple": true
+  },
+  {
+   "Regla": "EE. UU. + Europa",
+   "Límite": "≥ 0%",
+   "Valor": 0.9,
+   "Cumple": true
+  },
+  {
+   "Regla": "ETFs (total)",
+   "Límite": "informativo",
+   "Valor": 0.2,
+   "Cumple": true
+  }
+ ],
+ "nota": "",
+ "operaciones": [
+  {
+   "ticker": "ASML",
+   "antes": 0.0,
+   "despues": 0.05,
+   "cambio": 0.05,
+   "tipo": "compra"
+  },
+  {
+   "ticker": "XSD",
+   "antes": 0.25,
+   "despues": 0.2,
+   "cambio": -0.05,
+   "tipo": "reducción"
+  }
+ ]
+}
