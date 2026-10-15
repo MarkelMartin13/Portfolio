@@ -1,0 +1,249 @@
+{
+ "fecha": "2026-10-15 10:43:57",
+ "metodo": "Black-Litterman",
+ "efectivo": 0.05,
+ "posiciones": [
+  {
+   "ticker": "AIXA.DE",
+   "nombre": "AIXTRON SE",
+   "tipo": "Acción",
+   "peso": 0.15,
+   "divisa": "EUR",
+   "pais": "Germany",
+   "small_mid": true,
+   "precio_ref": 35.06999969482422
+  },
+  {
+   "ticker": "NVDA",
+   "nombre": "NVIDIA Corporation",
+   "tipo": "Acción",
+   "peso": 0.141934,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": false,
+   "precio_ref": 228.52000427246094
+  },
+  {
+   "ticker": "PLAB",
+   "nombre": "Photronics, Inc.",
+   "tipo": "Acción",
+   "peso": 0.118066,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": true,
+   "precio_ref": 29.1200008392334
+  },
+  {
+   "ticker": "TSM",
+   "nombre": "Taiwan Semiconductor Manufacturing Company Limited",
+   "tipo": "Acción",
+   "peso": 0.1,
+   "divisa": "USD",
+   "pais": "Taiwan",
+   "small_mid": false,
+   "precio_ref": 445.1199951171875
+  },
+  {
+   "ticker": "BESI.AS",
+   "nombre": "BE Semiconductor Industries N.V.",
+   "tipo": "Acción",
+   "peso": 0.08,
+   "divisa": "EUR",
+   "pais": "Netherlands",
+   "small_mid": false,
+   "precio_ref": 171.4499969482422
+  },
+  {
+   "ticker": "LRCX",
+   "nombre": "Lam Research Corporation",
+   "tipo": "Acción",
+   "peso": 0.08,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": false,
+   "precio_ref": 301.1099853515625
+  },
+  {
+   "ticker": "SMHN.DE",
+   "nombre": "SUSS MicroTec SE",
+   "tipo": "Acción",
+   "peso": 0.08,
+   "divisa": "EUR",
+   "pais": "Germany",
+   "small_mid": true,
+   "precio_ref": 61.650001525878906
+  },
+  {
+   "ticker": "ACLS",
+   "nombre": "Axcelis Technologies, Inc.",
+   "tipo": "Acción",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": true,
+   "precio_ref": 124.87999725341797
+  },
+  {
+   "ticker": "XSD",
+   "nombre": "State Street SPDR S&P Semiconductor ETF",
+   "tipo": "ETF",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": null,
+   "small_mid": false,
+   "precio_ref": 509.7799987792969
+  },
+  {
+   "ticker": "MU",
+   "nombre": "Micron Technology, Inc.",
+   "tipo": "Acción",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "United States",
+   "small_mid": false,
+   "precio_ref": 953.1900024414062
+  },
+  {
+   "ticker": "ASML",
+   "nombre": "ASML Holding N.V.",
+   "tipo": "Acción",
+   "peso": 0.05,
+   "divisa": "USD",
+   "pais": "Netherlands",
+   "small_mid": false,
+   "precio_ref": 1717.760009765625
+  }
+ ],
+ "metricas": {
+  "rentabilidad_esperada": 0.4189236951808275,
+  "volatilidad": 0.34648644258677824,
+  "sharpe": 1.0936176675539775,
+  "max_drawdown_hist": -0.40635298612873305,
+  "rent_hist_anualizada": 0.4591482326978953,
+  "n_posiciones": 11.0,
+  "peso_max": 0.15,
+  "beta": 0.7136866672419034,
+  "tracking_error": 0.22478014283560188,
+  "correlacion_bench": 0.8430019347064732
+ },
+ "cumplimiento_ips": [
+  {
+   "Regla": "Peso máximo por acción",
+   "Límite": "≤ 15.0%",
+   "Valor": 0.15,
+   "Cumple": true
+  },
+  {
+   "Regla": "Peso mínimo por acción elegida",
+   "Límite": "≥ 5.0%",
+   "Valor": 0.05,
+   "Cumple": true
+  },
+  {
+   "Regla": "Peso fijo XSD",
+   "Límite": "= 5.0%",
+   "Valor": 0.05,
+   "Cumple": true
+  },
+  {
+   "Regla": "Peso fijo TSM",
+   "Límite": "= 10.0%",
+   "Valor": 0.1,
+   "Cumple": true
+  },
+  {
+   "Regla": "Peso fijo BESI.AS",
+   "Límite": "= 8.0%",
+   "Valor": 0.08,
+   "Cumple": true
+  },
+  {
+   "Regla": "Peso fijo LRCX",
+   "Límite": "= 8.0%",
+   "Valor": 0.08,
+   "Cumple": true
+  },
+  {
+   "Regla": "Peso fijo SMHN.DE",
+   "Límite": "= 8.0%",
+   "Valor": 0.08,
+   "Cumple": true
+  },
+  {
+   "Regla": "Efectivo",
+   "Límite": "5% – 10%",
+   "Valor": 0.05,
+   "Cumple": true
+  },
+  {
+   "Regla": "Small/mid caps",
+   "Límite": "≥ 0%",
+   "Valor": 0.3980664557759127,
+   "Cumple": true
+  },
+  {
+   "Regla": "EE. UU. + Europa",
+   "Límite": "≥ 0%",
+   "Valor": 0.8499999999999998,
+   "Cumple": true
+  },
+  {
+   "Regla": "ETFs (total)",
+   "Límite": "informativo",
+   "Valor": 0.05,
+   "Cumple": true
+  }
+ ],
+ "nota": "Cambios en el fondo tras los resultados de TSMC\n\nLos resultados de TSMC confirman dos cosas: la demanda de IA sigue por delante de la oferta, y la compañía va a invertir en más capacidad tanto en fabricación (front-end) como en empaquetado (back-end). Wei reconoció que van \"algo cortos\" en back-end. Por eso he reorganizado la cartera hacia quienes se benefician directamente de esa inversión:\n\nTSM (5% → 10%): el beneficiado más directo. Resultados récord, guía de 2026 al +44% y poder de precios.\nLRCX (5% → 8%): más fábricas de 3nm, N2 duplicando capacidad en 2027 y un capex \"aún más\" alto hasta 2028 suponen más demanda de equipos de grabado y deposición.\nBESI.AS y SMHN.DE (5% → 8% cada una): son la apuesta por el cuello de botella del back-end. Ambas fabrican equipos para empaquetado avanzado, BESI en hybrid bonding y Süss MicroTec en bonding y litografía para packaging.\nNVDA (10% → 14,2%): TSMC ve la demanda de aceleradores de IA por encima de una CAGR del 50% alto, y NVIDIA es su principal cliente en este segmento.\nXSD (20% → 5%): reduzco el ETF diversificado para concentrar el peso en las tesis concretas.\nPLAB (15% → 11,8%): financia parte de las compras.",
+ "operaciones": [
+  {
+   "ticker": "BESI.AS",
+   "antes": 0.05,
+   "despues": 0.08,
+   "cambio": 0.03,
+   "tipo": "aumento"
+  },
+  {
+   "ticker": "LRCX",
+   "antes": 0.05,
+   "despues": 0.08,
+   "cambio": 0.03,
+   "tipo": "aumento"
+  },
+  {
+   "ticker": "NVDA",
+   "antes": 0.1,
+   "despues": 0.141934,
+   "cambio": 0.041934,
+   "tipo": "aumento"
+  },
+  {
+   "ticker": "PLAB",
+   "antes": 0.15,
+   "despues": 0.118066,
+   "cambio": -0.031934,
+   "tipo": "reducción"
+  },
+  {
+   "ticker": "SMHN.DE",
+   "antes": 0.05,
+   "despues": 0.08,
+   "cambio": 0.03,
+   "tipo": "aumento"
+  },
+  {
+   "ticker": "TSM",
+   "antes": 0.05,
+   "despues": 0.1,
+   "cambio": 0.05,
+   "tipo": "aumento"
+  },
+  {
+   "ticker": "XSD",
+   "antes": 0.2,
+   "despues": 0.05,
+   "cambio": -0.15,
+   "tipo": "reducción"
+  }
+ ]
+}
