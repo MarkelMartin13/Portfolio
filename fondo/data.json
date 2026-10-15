@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-14 20:05 UTC",
+ "actualizado": "2026-10-15 00:44 UTC",
  "inicio": "2026-10-13",
  "ultimo_cierre": "2026-10-14",
  "benchmarks": {
@@ -13,11 +13,11 @@
   ],
   "fondo": [
    100.0,
-   97.204
+   96.918
   ],
   "XSD": [
    100.0,
-   94.699
+   94.688
   ],
   "SOXX": [
    100.0,
@@ -26,18 +26,18 @@
  },
  "metricas": {
   "Fondo": {
-   "total": -0.027955514237329893,
+   "total": -0.030823761984127174,
    "anualizada": null,
-   "ytd": -0.027955514237329893,
+   "ytd": -0.030823761984127174,
    "volatilidad": null,
-   "max_caida": -0.027955514237329893
+   "max_caida": -0.030823761984127174
   },
   "XSD": {
-   "total": -0.05301305261327938,
+   "total": -0.05312092792402712,
    "anualizada": null,
-   "ytd": -0.05301305261327938,
+   "ytd": -0.05312092792402712,
    "volatilidad": null,
-   "max_caida": -0.05301305261327938
+   "max_caida": -0.05312092792402712
   },
   "SOXX": {
    "total": -0.04500834786738306,
@@ -63,9 +63,9 @@
     "precio_ref": 509.7799987792969,
     "fecha_entrada": "2026-10-13",
     "precio_entrada": 509.7799987792969,
-    "precio_actual": 482.7550048828125,
-    "pnl": -0.05301305261327938,
-    "peso_actual": 0.20000000000000004
+    "precio_actual": 482.70001220703125,
+    "pnl": -0.053120927924027006,
+    "peso_actual": 0.2
    },
    {
     "ticker": "PLAB",
@@ -80,7 +80,7 @@
     "precio_entrada": 29.1200008392334,
     "precio_actual": 28.360000610351562,
     "pnl": -0.026098908206688254,
-    "peso_actual": 0.14999999999999997
+    "peso_actual": 0.15
    },
    {
     "ticker": "AIXA.DE",
@@ -93,8 +93,8 @@
     "precio_ref": 35.06999969482422,
     "fecha_entrada": "2026-10-13",
     "precio_entrada": 34.529998779296875,
-    "precio_actual": 35.4900016784668,
-    "pnl": 0.02780199632516389,
+    "precio_actual": 34.529998779296875,
+    "pnl": 0.0,
     "peso_actual": 0.15
    },
    {
@@ -110,7 +110,7 @@
     "precio_entrada": 228.52000427246094,
     "precio_actual": 221.3000030517578,
     "pnl": -0.03159461353805515,
-    "peso_actual": 0.10000000000000002
+    "peso_actual": 0.1
    },
    {
     "ticker": "ACLS",
@@ -125,7 +125,7 @@
     "precio_entrada": 124.87999725341797,
     "precio_actual": 118.61000061035156,
     "pnl": -0.05020817409486933,
-    "peso_actual": 0.05000000000000001
+    "peso_actual": 0.05
    },
    {
     "ticker": "TSM",
@@ -138,9 +138,9 @@
     "precio_ref": 445.1199951171875,
     "fecha_entrada": "2026-10-13",
     "precio_entrada": 445.1199951171875,
-    "precio_actual": 430.0799865722656,
-    "pnl": -0.033788660832821615,
-    "peso_actual": 0.05000000000000001
+    "precio_actual": 430.0,
+    "pnl": -0.03396835748348448,
+    "peso_actual": 0.05
    },
    {
     "ticker": "BESI.AS",
@@ -152,10 +152,10 @@
     "small_mid": false,
     "precio_ref": 171.4499969482422,
     "fecha_entrada": "2026-10-14",
-    "precio_entrada": 174.5500030517578,
-    "precio_actual": 174.5500030517578,
+    "precio_entrada": 172.5,
+    "precio_actual": 172.5,
     "pnl": 0.0,
-    "peso_actual": 0.05000000000000001
+    "peso_actual": 0.05
    },
    {
     "ticker": "MU",
@@ -167,10 +167,10 @@
     "small_mid": false,
     "precio_ref": 953.1900024414062,
     "fecha_entrada": "2026-10-13",
-    "precio_entrada": 953.1900024414062,
+    "precio_entrada": 953.0400390625,
     "precio_actual": 914.1300048828125,
-    "pnl": -0.040978186362162106,
-    "peso_actual": 0.05000000000000001
+    "pnl": -0.04082728173515471,
+    "peso_actual": 0.05
    },
    {
     "ticker": "LRCX",
@@ -185,7 +185,7 @@
     "precio_entrada": 301.1099853515625,
     "precio_actual": 286.9200134277344,
     "pnl": -0.047125544200271374,
-    "peso_actual": 0.05000000000000001
+    "peso_actual": 0.05
    },
    {
     "ticker": "SMHN.DE",
@@ -198,9 +198,9 @@
     "precio_ref": 61.650001525878906,
     "fecha_entrada": "2026-10-13",
     "precio_entrada": 62.04999923706055,
-    "precio_actual": 61.45000076293945,
-    "pnl": -0.009669596800941371,
-    "peso_actual": 0.05000000000000001
+    "precio_actual": 62.04999923706055,
+    "pnl": 0.0,
+    "peso_actual": 0.05
    },
    {
     "ticker": "ASML",
@@ -215,7 +215,7 @@
     "precio_entrada": 1650.0,
     "precio_actual": 1650.0,
     "pnl": 0.0,
-    "peso_actual": 0.05000000000000001
+    "peso_actual": 0.05
    }
   ],
   "metricas": {
