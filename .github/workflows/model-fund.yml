@@ -1,0 +1,31 @@
+name: Model Fund — rentabilidad diaria
+
+on:
+  schedule:
+    - cron: "30 22 * * 1-5"      # 22:30 UTC, tras el cierre de EE. UU., de lunes a viernes
+  workflow_dispatch:
+  push:
+    paths:
+      - "fondo/carteras/**"       # recalcular al registrar una nueva cartera
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python scripts/actualizar.py
+      - name: Guardar resultados
+        run: |
+          git config user.name "model-fund-bot"
+          git config user.email "model-fund-bot@users.noreply.github.com"
+          git add -A fondo
+          git diff --cached --quiet || git commit -m "Model Fund NAV $(date -u +%F)"
+          git pull --rebase
+          git push
