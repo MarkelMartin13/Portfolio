@@ -16,7 +16,7 @@
 
   fetch("fondo/data.json?" + Date.now()).then(r => { if (!r.ok) throw 0; return r.json(); }).then(d => {
     const c = d.cartera_actual, s = d.serie, m = d.metricas || {}, f = m.Fondo || {}, x = m.XSD || {};
-    $("fundMeta").textContent = `Inception ${d.inicio} · Last close ${d.ultimo_cierre} · Updated ${d.actualizado}`;
+    $("fundMeta").textContent = `Inception ${d.inicio} · ${d.ultimo_cierre ? "Last close " + d.ultimo_cierre : "NAV starts at the first close after inception"} · Updated ${d.actualizado}`;
 
     // KPIs
     const nav = s.fondo[s.fondo.length - 1];

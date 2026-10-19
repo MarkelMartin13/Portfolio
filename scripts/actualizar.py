@@ -80,7 +80,7 @@ def calcular_nav(carteras: list[dict], precios: pd.DataFrame, fx: dict[str, pd.S
             efectivo = nav * float(c.get("efectivo", 0.0))
         filas.append({"fecha": d, "nav": nav})
     calcular_nav.estado = {"unidades": unidades, "efectivo": efectivo, "usd": usd.iloc[-1] if len(usd) else None}
-    return pd.DataFrame(filas).set_index("fecha")
+    return pd.DataFrame(filas, columns=["fecha", "nav"]).set_index("fecha")
 
 
 def posiciones_actuales(carteras: list[dict], precios: pd.DataFrame, nav_final: float) -> list[dict]:
@@ -139,6 +139,16 @@ def main(precios_fn=None, hoy: str | None = None):
     divisas = {p.get("divisa") or "USD" for c in carteras for p in c["posiciones"]}
     fx = fx_series(divisas, precios.index, inicio, fn)
     nav = calcular_nav(carteras, precios, fx)
+    if nav.empty:                      # cartera registrada, pero aún sin ninguna sesión cerrada desde entonces
+        actual = carteras[-1]
+        data = {"actualizado": hoy or datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"), "inicio": inicio,
+                "ultimo_cierre": None, "benchmarks": BENCH, "serie": {"fechas": [], "fondo": [], "XSD": [], "SOXX": []},
+                "metricas": {}, "cartera_actual": {**actual, "posiciones": [{**q, "peso_actual": q["peso"]} for q in actual["posiciones"]]},
+                "rebalanceos": [{"fecha": c["fecha"], "metodo": c.get("metodo"), "n": len(c["posiciones"]),
+                                 "operaciones": c.get("operaciones", []), "nota": c.get("nota", "")} for c in reversed(carteras)]}
+        (DOCS / "data.json").write_text(json.dumps(_limpiar(data), ensure_ascii=False, indent=1, default=str, allow_nan=False), encoding="utf-8")
+        print(f"Cartera de {inicio} publicada; el NAV empieza con el primer cierre posterior.")
+        return
     for b in BENCH:
         if b in precios:
             s = precios[b].reindex(nav.index).ffill()
