@@ -1,0 +1,189 @@
+{
+ "actualizado": "2026-10-19 06:18 UTC",
+ "inicio": "2026-10-19",
+ "ultimo_cierre": null,
+ "benchmarks": {
+  "XSD": "SPDR S&P Semiconductor ETF (principal)",
+  "SOXX": "iShares Semiconductor ETF (secundario)"
+ },
+ "serie": {
+  "fechas": [],
+  "fondo": [],
+  "XSD": [],
+  "SOXX": []
+ },
+ "metricas": {},
+ "cartera_actual": {
+  "fecha": "2026-10-19 08:13:55",
+  "metodo": "Black-Litterman",
+  "efectivo": 0.1,
+  "posiciones": [
+   {
+    "ticker": "AIXA.DE",
+    "nombre": "AIXTRON SE",
+    "tipo": "Acción",
+    "peso": 0.15,
+    "divisa": "EUR",
+    "pais": "Germany",
+    "small_mid": true,
+    "precio_ref": 32.88999938964844,
+    "peso_actual": 0.15
+   },
+   {
+    "ticker": "NVDA",
+    "nombre": "NVIDIA Corporation",
+    "tipo": "Acción",
+    "peso": 0.15,
+    "divisa": "USD",
+    "pais": "United States",
+    "small_mid": false,
+    "precio_ref": 214.1300048828125,
+    "peso_actual": 0.15
+   },
+   {
+    "ticker": "TSM",
+    "nombre": "Taiwan Semiconductor Manufacturing Company Limited",
+    "tipo": "Acción",
+    "peso": 0.15,
+    "divisa": "USD",
+    "pais": "Taiwan",
+    "small_mid": false,
+    "precio_ref": 412.6099853515625,
+    "peso_actual": 0.15
+   },
+   {
+    "ticker": "PLAB",
+    "nombre": "Photronics, Inc.",
+    "tipo": "Acción",
+    "peso": 0.127353,
+    "divisa": "USD",
+    "pais": "United States",
+    "small_mid": true,
+    "precio_ref": 27.520000457763672,
+    "peso_actual": 0.127353
+   },
+   {
+    "ticker": "LRCX",
+    "nombre": "Lam Research Corporation",
+    "tipo": "Acción",
+    "peso": 0.105434,
+    "divisa": "USD",
+    "pais": "United States",
+    "small_mid": false,
+    "precio_ref": 263.94000244140625,
+    "peso_actual": 0.105434
+   },
+   {
+    "ticker": "ACLS",
+    "nombre": "Axcelis Technologies, Inc.",
+    "tipo": "Acción",
+    "peso": 0.063196,
+    "divisa": "USD",
+    "pais": "United States",
+    "small_mid": true,
+    "precio_ref": 108.3499984741211,
+    "peso_actual": 0.063196
+   },
+   {
+    "ticker": "SMHN.DE",
+    "nombre": "SUSS MicroTec SE",
+    "tipo": "Acción",
+    "peso": 0.054017,
+    "divisa": "EUR",
+    "pais": "Germany",
+    "small_mid": true,
+    "precio_ref": 56.349998474121094,
+    "peso_actual": 0.054017
+   },
+   {
+    "ticker": "BESI.AS",
+    "nombre": "BE Semiconductor Industries N.V.",
+    "tipo": "Acción",
+    "peso": 0.05,
+    "divisa": "EUR",
+    "pais": "Netherlands",
+    "small_mid": false,
+    "precio_ref": 155.5500030517578,
+    "peso_actual": 0.05
+   },
+   {
+    "ticker": "ASML",
+    "nombre": "ASML Holding N.V.",
+    "tipo": "Acción",
+    "peso": 0.05,
+    "divisa": "USD",
+    "pais": "Netherlands",
+    "small_mid": false,
+    "precio_ref": 1641.52001953125,
+    "peso_actual": 0.05
+   }
+  ],
+  "metricas": {
+   "rentabilidad_esperada": 0.39416413267820033,
+   "volatilidad": 0.3271746140012202,
+   "sharpe": 1.0824927042685515,
+   "max_drawdown_hist": -0.3784072675531145,
+   "rent_hist_anualizada": 0.38120047672068225,
+   "n_posiciones": 9.0,
+   "peso_max": 0.15000000000000002,
+   "beta": 0.662011979736375,
+   "tracking_error": 0.23365334448530511,
+   "correlacion_bench": 0.831087001750639
+  },
+  "cumplimiento_ips": [
+   {
+    "Regla": "Peso máximo por acción",
+    "Límite": "≤ 15.0%",
+    "Valor": 0.15000000000000002,
+    "Cumple": true
+   },
+   {
+    "Regla": "Peso mínimo por acción elegida",
+    "Límite": "≥ 5.0%",
+    "Valor": 0.050000000000000024,
+    "Cumple": true
+   },
+   {
+    "Regla": "Peso máximo por ETF optimizado",
+    "Límite": "≤ 45%",
+    "Valor": 0.0,
+    "Cumple": true
+   },
+   {
+    "Regla": "Efectivo",
+    "Límite": "5% – 10%",
+    "Valor": 0.1,
+    "Cumple": true
+   },
+   {
+    "Regla": "Small/mid caps",
+    "Límite": "≥ 0%",
+    "Valor": 0.39456569532441443,
+    "Cumple": true
+   },
+   {
+    "Regla": "EE. UU. + Europa",
+    "Límite": "≥ 0%",
+    "Valor": 0.75,
+    "Cumple": true
+   },
+   {
+    "Regla": "ETFs (total)",
+    "Límite": "informativo",
+    "Valor": 0.0,
+    "Cumple": true
+   }
+  ],
+  "nota": "",
+  "operaciones": []
+ },
+ "rebalanceos": [
+  {
+   "fecha": "2026-10-19 08:13:55",
+   "metodo": "Black-Litterman",
+   "n": 9,
+   "operaciones": [],
+   "nota": ""
+  }
+ ]
+}
