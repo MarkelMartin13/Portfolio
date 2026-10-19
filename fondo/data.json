@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-19 06:18 UTC",
+ "actualizado": "2026-10-19 06:19 UTC",
  "inicio": "2026-10-19",
  "ultimo_cierre": null,
  "benchmarks": {
@@ -14,7 +14,7 @@
  },
  "metricas": {},
  "cartera_actual": {
-  "fecha": "2026-10-19 08:13:55",
+  "fecha": "2026-10-19 08:19:31",
   "metodo": "Black-Litterman",
   "efectivo": 0.1,
   "posiciones": [
@@ -178,6 +178,13 @@
   "operaciones": []
  },
  "rebalanceos": [
+  {
+   "fecha": "2026-10-19 08:19:31",
+   "metodo": "Black-Litterman",
+   "n": 9,
+   "operaciones": [],
+   "nota": ""
+  },
   {
    "fecha": "2026-10-19 08:13:55",
    "metodo": "Black-Litterman",
