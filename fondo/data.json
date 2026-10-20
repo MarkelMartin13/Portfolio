@@ -1,18 +1,30 @@
 {
- "actualizado": "2026-10-19 06:19 UTC",
+ "actualizado": "2026-10-20 01:09 UTC",
  "inicio": "2026-10-19",
- "ultimo_cierre": null,
+ "ultimo_cierre": "2026-10-19",
  "benchmarks": {
   "XSD": "SPDR S&P Semiconductor ETF (principal)",
   "SOXX": "iShares Semiconductor ETF (secundario)"
  },
  "serie": {
-  "fechas": [],
-  "fondo": [],
-  "XSD": [],
-  "SOXX": []
+  "fechas": [
+   "2026-10-19"
+  ],
+  "fondo": [
+   100.0
+  ],
+  "XSD": [
+   100.0
+  ],
+  "SOXX": [
+   100.0
+  ]
  },
- "metricas": {},
+ "metricas": {
+  "Fondo": {},
+  "XSD": {},
+  "SOXX": {}
+ },
  "cartera_actual": {
   "fecha": "2026-10-19 08:19:31",
   "metodo": "Black-Litterman",
@@ -27,6 +39,10 @@
     "pais": "Germany",
     "small_mid": true,
     "precio_ref": 32.88999938964844,
+    "fecha_entrada": "2026-10-19",
+    "precio_entrada": 32.77000045776367,
+    "precio_actual": 32.77000045776367,
+    "pnl": 0.0,
     "peso_actual": 0.15
    },
    {
@@ -38,7 +54,11 @@
     "pais": "United States",
     "small_mid": false,
     "precio_ref": 214.1300048828125,
-    "peso_actual": 0.15
+    "fecha_entrada": "2026-10-19",
+    "precio_entrada": 217.08999633789062,
+    "precio_actual": 217.08999633789062,
+    "pnl": 0.0,
+    "peso_actual": 0.15000000000000002
    },
    {
     "ticker": "TSM",
@@ -49,6 +69,10 @@
     "pais": "Taiwan",
     "small_mid": false,
     "precio_ref": 412.6099853515625,
+    "fecha_entrada": "2026-10-19",
+    "precio_entrada": 420.2200012207031,
+    "precio_actual": 420.2200012207031,
+    "pnl": 0.0,
     "peso_actual": 0.15
    },
    {
@@ -60,6 +84,10 @@
     "pais": "United States",
     "small_mid": true,
     "precio_ref": 27.520000457763672,
+    "fecha_entrada": "2026-10-19",
+    "precio_entrada": 28.350000381469727,
+    "precio_actual": 28.350000381469727,
+    "pnl": 0.0,
     "peso_actual": 0.127353
    },
    {
@@ -71,6 +99,10 @@
     "pais": "United States",
     "small_mid": false,
     "precio_ref": 263.94000244140625,
+    "fecha_entrada": "2026-10-19",
+    "precio_entrada": 272.20001220703125,
+    "precio_actual": 272.20001220703125,
+    "pnl": 0.0,
     "peso_actual": 0.105434
    },
    {
@@ -82,6 +114,10 @@
     "pais": "United States",
     "small_mid": true,
     "precio_ref": 108.3499984741211,
+    "fecha_entrada": "2026-10-19",
+    "precio_entrada": 111.20999908447266,
+    "precio_actual": 111.20999908447266,
+    "pnl": 0.0,
     "peso_actual": 0.063196
    },
    {
@@ -93,6 +129,10 @@
     "pais": "Germany",
     "small_mid": true,
     "precio_ref": 56.349998474121094,
+    "fecha_entrada": "2026-10-19",
+    "precio_entrada": 55.79999923706055,
+    "precio_actual": 55.79999923706055,
+    "pnl": 0.0,
     "peso_actual": 0.054017
    },
    {
@@ -104,6 +144,10 @@
     "pais": "Netherlands",
     "small_mid": false,
     "precio_ref": 155.5500030517578,
+    "fecha_entrada": "2026-10-19",
+    "precio_entrada": 160.85000610351562,
+    "precio_actual": 160.85000610351562,
+    "pnl": 0.0,
     "peso_actual": 0.05
    },
    {
@@ -115,6 +159,10 @@
     "pais": "Netherlands",
     "small_mid": false,
     "precio_ref": 1641.52001953125,
+    "fecha_entrada": "2026-10-19",
+    "precio_entrada": 1647.1199951171875,
+    "precio_actual": 1647.1199951171875,
+    "pnl": 0.0,
     "peso_actual": 0.05
    }
   ],
