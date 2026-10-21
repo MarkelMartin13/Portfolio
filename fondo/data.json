@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21 00:47 UTC",
+ "actualizado": "2026-10-21 06:21 UTC",
  "inicio": "2026-10-19",
  "ultimo_cierre": "2026-10-20",
  "benchmarks": {
@@ -13,38 +13,38 @@
   ],
   "fondo": [
    100.0,
-   99.978
+   99.939
   ],
   "XSD": [
    100.0,
-   100.0
+   100.374
   ],
   "SOXX": [
    100.0,
-   100.0
+   99.617
   ]
  },
  "metricas": {
   "Fondo": {
-   "total": -0.0002193908261786115,
+   "total": -0.0006061115631161851,
    "anualizada": null,
-   "ytd": -0.0002193908261786115,
+   "ytd": -0.0006061115631161851,
    "volatilidad": null,
-   "max_caida": -0.0002193908261786115
+   "max_caida": -0.0006061115631161851
   },
   "XSD": {
-   "total": 0.0,
+   "total": 0.0037427108253589303,
    "anualizada": null,
-   "ytd": 0.0,
+   "ytd": 0.0037427108253589303,
    "volatilidad": null,
    "max_caida": 0.0
   },
   "SOXX": {
-   "total": 0.0,
+   "total": -0.003825200602021961,
    "anualizada": null,
-   "ytd": 0.0,
+   "ytd": -0.003825200602021961,
    "volatilidad": null,
-   "max_caida": 0.0
+   "max_caida": -0.003825200602021961
   }
  },
  "cartera_actual": {
@@ -65,7 +65,7 @@
     "precio_entrada": 32.77000045776367,
     "precio_actual": 32.77000045776367,
     "pnl": 0.0,
-    "peso_actual": 0.14990333457575616
+    "peso_actual": 0.14996134046181098
    },
    {
     "ticker": "NVDA",
@@ -78,9 +78,9 @@
     "precio_ref": 214.1300048828125,
     "fecha_entrada": "2026-10-19",
     "precio_entrada": 217.08999633789062,
-    "precio_actual": 217.08999633789062,
-    "pnl": 0.0,
-    "peso_actual": 0.15003291584536133
+    "precio_actual": 216.47000122070312,
+    "pnl": -0.0028559359143500718,
+    "peso_actual": 0.1496623216765785
    },
    {
     "ticker": "TSM",
@@ -93,9 +93,9 @@
     "precio_ref": 412.6099853515625,
     "fecha_entrada": "2026-10-19",
     "precio_entrada": 420.2200012207031,
-    "precio_actual": 420.2200012207031,
-    "pnl": 0.0,
-    "peso_actual": 0.1500329158453613
+    "precio_actual": 425.0799865722656,
+    "pnl": 0.01156533562763462,
+    "peso_actual": 0.15182682433796765
    },
    {
     "ticker": "PLAB",
@@ -108,9 +108,9 @@
     "precio_ref": 27.520000457763672,
     "fecha_entrada": "2026-10-19",
     "precio_entrada": 28.350000381469727,
-    "precio_actual": 28.350000381469727,
-    "pnl": 0.0,
-    "peso_actual": 0.12738094621102863
+    "precio_actual": 28.6200008392334,
+    "pnl": 0.009523825542526287,
+    "peso_actual": 0.12864386028556032
    },
    {
     "ticker": "LRCX",
@@ -123,9 +123,9 @@
     "precio_ref": 263.94000244140625,
     "fecha_entrada": "2026-10-19",
     "precio_entrada": 272.20001220703125,
-    "precio_actual": 272.20001220703125,
-    "pnl": 0.0,
-    "peso_actual": 0.10545713632826549
+    "precio_actual": 263.45001220703125,
+    "pnl": -0.032145479822186296,
+    "peso_actual": 0.1021066615086392
    },
    {
     "ticker": "ACLS",
@@ -138,9 +138,9 @@
     "precio_ref": 108.3499984741211,
     "fecha_entrada": "2026-10-19",
     "precio_entrada": 111.20999908447266,
-    "precio_actual": 111.20999908447266,
-    "pnl": 0.0,
-    "peso_actual": 0.0632098676650897
+    "precio_actual": 112.93000030517578,
+    "pnl": 0.01546624615468839,
+    "peso_actual": 0.06421232472450178
    },
    {
     "ticker": "SMHN.DE",
@@ -155,7 +155,7 @@
     "precio_entrada": 55.79999923706055,
     "precio_actual": 55.79999923706055,
     "pnl": 0.0,
-    "peso_actual": 0.05398218949185748
+    "peso_actual": 0.05400307818483763
    },
    {
     "ticker": "BESI.AS",
@@ -170,7 +170,7 @@
     "precio_entrada": 160.85000610351562,
     "precio_actual": 160.85000610351562,
     "pnl": 0.0,
-    "peso_actual": 0.04996777819191872
+    "peso_actual": 0.04998711348727032
    },
    {
     "ticker": "ASML",
@@ -183,9 +183,9 @@
     "precio_ref": 1641.52001953125,
     "fecha_entrada": "2026-10-19",
     "precio_entrada": 1647.1199951171875,
-    "precio_actual": 1647.1199951171875,
-    "pnl": 0.0,
-    "peso_actual": 0.05001097194845377
+    "precio_actual": 1630.8399658203125,
+    "pnl": -0.009883936413337513,
+    "peso_actual": 0.04953582741711918
    }
   ],
   "metricas": {
