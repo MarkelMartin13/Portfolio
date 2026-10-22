@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-10-21 06:21 UTC",
+ "actualizado": "2026-10-22 00:49 UTC",
  "inicio": "2026-10-19",
- "ultimo_cierre": "2026-10-20",
+ "ultimo_cierre": "2026-10-21",
  "benchmarks": {
   "XSD": "SPDR S&P Semiconductor ETF (principal)",
   "SOXX": "iShares Semiconductor ETF (secundario)"
@@ -9,28 +9,32 @@
  "serie": {
   "fechas": [
    "2026-10-19",
-   "2026-10-20"
+   "2026-10-20",
+   "2026-10-21"
   ],
   "fondo": [
    100.0,
-   99.939
+   98.985,
+   99.009
   ],
   "XSD": [
    100.0,
+   100.374,
    100.374
   ],
   "SOXX": [
    100.0,
+   99.617,
    99.617
   ]
  },
  "metricas": {
   "Fondo": {
-   "total": -0.0006061115631161851,
+   "total": -0.009913178519047494,
    "anualizada": null,
-   "ytd": -0.0006061115631161851,
+   "ytd": -0.009913178519047494,
    "volatilidad": null,
-   "max_caida": -0.0006061115631161851
+   "max_caida": -0.010151732420656256
   },
   "XSD": {
    "total": 0.0037427108253589303,
@@ -63,9 +67,9 @@
     "precio_ref": 32.88999938964844,
     "fecha_entrada": "2026-10-19",
     "precio_entrada": 32.77000045776367,
-    "precio_actual": 32.77000045776367,
-    "pnl": 0.0,
-    "peso_actual": 0.14996134046181098
+    "precio_actual": 31.420000076293945,
+    "pnl": -0.04119622711661852,
+    "peso_actual": 0.14527684962307932
    },
    {
     "ticker": "NVDA",
@@ -80,7 +84,7 @@
     "precio_entrada": 217.08999633789062,
     "precio_actual": 216.47000122070312,
     "pnl": -0.0028559359143500718,
-    "peso_actual": 0.1496623216765785
+    "peso_actual": 0.15106918541660944
    },
    {
     "ticker": "TSM",
@@ -95,7 +99,7 @@
     "precio_entrada": 420.2200012207031,
     "precio_actual": 425.0799865722656,
     "pnl": 0.01156533562763462,
-    "peso_actual": 0.15182682433796765
+    "peso_actual": 0.15325403495138262
    },
    {
     "ticker": "PLAB",
@@ -110,7 +114,7 @@
     "precio_entrada": 28.350000381469727,
     "precio_actual": 28.6200008392334,
     "pnl": 0.009523825542526287,
-    "peso_actual": 0.12864386028556032
+    "peso_actual": 0.12985314516358373
    },
    {
     "ticker": "LRCX",
@@ -125,7 +129,7 @@
     "precio_entrada": 272.20001220703125,
     "precio_actual": 263.45001220703125,
     "pnl": -0.032145479822186296,
-    "peso_actual": 0.1021066615086392
+    "peso_actual": 0.10306648999508047
    },
    {
     "ticker": "ACLS",
@@ -140,7 +144,7 @@
     "precio_entrada": 111.20999908447266,
     "precio_actual": 112.93000030517578,
     "pnl": 0.01546624615468839,
-    "peso_actual": 0.06421232472450178
+    "peso_actual": 0.06481593684481364
    },
    {
     "ticker": "SMHN.DE",
@@ -153,9 +157,9 @@
     "precio_ref": 56.349998474121094,
     "fecha_entrada": "2026-10-19",
     "precio_entrada": 55.79999923706055,
-    "precio_actual": 55.79999923706055,
-    "pnl": 0.0,
-    "peso_actual": 0.05400307818483763
+    "precio_actual": 54.0,
+    "pnl": -0.03225805128443526,
+    "peso_actual": 0.05280383284123069
    },
    {
     "ticker": "BESI.AS",
@@ -168,9 +172,9 @@
     "precio_ref": 155.5500030517578,
     "fecha_entrada": "2026-10-19",
     "precio_entrada": 160.85000610351562,
-    "precio_actual": 160.85000610351562,
-    "pnl": 0.0,
-    "peso_actual": 0.04998711348727032
+    "precio_actual": 155.60000610351562,
+    "pnl": -0.03263910351748045,
+    "peso_actual": 0.04885780506366843
    },
    {
     "ticker": "ASML",
@@ -185,7 +189,7 @@
     "precio_entrada": 1647.1199951171875,
     "precio_actual": 1630.8399658203125,
     "pnl": -0.009883936413337513,
-    "peso_actual": 0.04953582741711918
+    "peso_actual": 0.050001476744517534
    }
   ],
   "metricas": {
